@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 8%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fake header{
+    height: 8%;
+    width: 100%;
+}
+#logo{
+    height: 90%;
+    width: 10%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo img{
+    margin-top: 8px;
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+#logo img:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+#location{
+    display: flex;
+    height: 85%;
+    margin: 5px;
+    padding: 0px 5px;
+    margin-left: 10px;
+    align-items: center;
+    border: 1px solid black;
+}
+#location:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+#locationLogo{
+    height: 100%;
+    color: white;
+    padding: 25px 0px;
+}
+#text{
+    color: white;
+    padding: 15px 0px;
+}
+#text h5{
+    font-weight: 100;
+    color: rgb(216, 213, 213);
+}
+#text h4{
+    font-weight: 600;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    color: grey;
+    height: 65%;
+    margin: 10px;
+}
+#all{
+    font-size: 12px;
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 232, 232);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0px 28px;
+    margin-right: 0%;
+}
+#all:hover{
+    background-color: rgb(199, 198, 198);
+    cursor: pointer;
+}
+#all p{
+    margin-right: 5px;
+}
+#searchInput{
+    width: 45%;
+    font-size: 15px;
+    text-align: left;
+    background-color: white;
+    padding: 0px 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#SearchTool{
+    width: 3%;
+    background-color: rgb(240, 177, 60);
+    display: flex;
+    margin-left: 0%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+#SearchTool:hover{
+    background-color: rgb(165, 118, 30);
+    cursor: pointer;
+}
+#country{
+    display: flex;
+    height: 50%;
+    width: 4%;
+    margin-top: 22px;
+    padding-top: 5px;
+    color: white;
+}
+#country:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+#country img{
+    height: 50%;
+    width: 70%;
+}
+#country p{
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 2px;
+}
+.account{
+    height: 70%;
+    width: 8%;
+    margin: 10px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.account:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.account p{
+    font-size: 12px;
+}
+#return{
+    width: 4%;
+    margin-left: 3px;
+}
+#cart{
+    height: 90%;
+    width: 4%;
+    margin-left: 3px;
+    display: flex;
+    color: white;
+    margin-top: 6px;
+}
+#cart:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+#cartIcon p{
+    color: orange;
+    text-align: center;
+}
+#cartText{
+    font-size: 13px;
+    margin-top: 30px; 
+    margin-left: 1px;
+}
+#page1{
+    height: 92%;
+    width: 100%;
+}
+#tab{
+    height: 14%;
+    width: 100%;
+    background-color: rgb(31, 47, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    color: white;
+    margin-top: 55px;
+    padding: 5px;
+}
+.icon:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+#menu{
+    display: flex;
+}
+#prime{
+    display: flex;
+}
+.content{
+    height: 86%;
+    width: 100%;
+    position: relative;
+}
+.content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.content img:hover{
+    cursor: pointer;
+}
+.cards{
+    height: 83%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -132px;
+    left: 0;
+    color: white;
+}
+.card{
+    height: 83%;
+    width: 23%;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+.photos{
+    display: flex;
+    font-size: smaller;
+}
+#photo1{
+    margin-right: 10px;
+    height: 100%;
+    width: 50%;
+}
+#photo2{
+    margin-left: 10px;
+    height: 100%;
+    width: 50%;
+}
+#last{
+    color: rgb(67, 67, 129);
+}
+#last :hover{
+    color: rgb(1, 1, 39);
+    cursor: pointer;
+}
